@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Victoria's Journal</title>
+  <style>
+    body {
+      background: url("C:\\Users\\l252035\\Downloads\\background.jpg") no-repeat center center fixed;
+      background-size: cover; /* picture fills the background */
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    #outer-box {
+      background-color: #ffffff;
+      border: 2px solid #000;
+      padding: 20px;
+      width: 900px;
+      margin: 0 auto;
+    }
+
+    /* Heading rectangle */
+    #heading-box {
+      background-color: #A6FFF8;
+      border: 2px solid #000;
+      padding: 15px;
+      margin-bottom: 20px;
+      text-align: right;
+      color: #2E6B64;
+    }
+
+    #main-title {
+      font-family: Georgia, serif;
+      font-size: 42px; /* increased */
+      font-weight: bold;
+      margin: 0;
+    }
+
+    #subtitle {
+      font-style: italic;
+      font-size: 20px; /* increased */
+      margin: 5px 0 0 0;
+    }
+
+    /* Sidebar */
+    #sidebar {
+      float: left;
+      width: 200px;
+      border: 8px solid #455F63;
+      padding: 10px;
+      background-color: #297D54;
+      margin-right: 20px;
+      color: #fff;
+    }
+
+    #sidebar h2 {
+      font-size: 24px; /* increased */
+      font-weight: bold;
+      margin-top: 0;
+    }
+
+    #sidebar ul {
+      padding-left: 10px;
+      margin: 0;
+    }
+
+    #sidebar li {
+      margin-bottom: 10px;
+      font-size: 18px; /* increased */
+    }
+
+    /* Entries area */
+    #entries {
+      overflow: hidden;
+    }
+
+    .entry {
+      border: 2px solid #000;
+      background-color: #E3FEFF;
+      padding: 10px;
+      margin-bottom: 20px;
+      overflow: auto;
+    }
+
+    .entry h3 {
+      font-size: 22px; /* increased */
+      font-weight: bold;
+      margin-top: 0;
+    }
+
+    .entry p {
+      margin-bottom: 10px;
+      font-size: 18px; /* increased */
+    }
+
+    /* underline only the date */
+    .date {
+      border-bottom: 2px dashed blue;
+      padding-bottom: 2px;
+    }
+
+    .entry img {
+      height: 150px;
+      width: 80px;
+      float: right;
+      margin-left: 10px;
+      border: 1px solid #000;
+      padding: 5px;
+      background-color: #eee;
+    }
+  </style>
+</head>
+<body>
+  <div id="outer-box">
+    <!-- Heading box wrapper -->
+    <div id="heading-box">
+      <h1 id="main-title">Victoria's Journal</h1>
+      <p id="subtitle">So fresh and so clean.</p>
+    </div>
+
+    <div id="sidebar">
+      <h2>Friends</h2>
+      <ul>
+        <li>100 Buddies</li>
+        <li>Big Will</li>
+        <li>Conan the Librarian</li>
+      </ul>
+    </div>
+
+    <div id="entries">
+      <div class="entry">
+        <h3><span class="date">04/09/08</span>: Spatulas</h3>
+        <p>
+          Today, I went to the store and got some much needed spatulas! What better way to love myself than to buy myself a spatula?
+        </p>
+        <img src="C:\Users\l252035\Downloads\cupcake.jpg" alt="Spatula" />
+      </div>
+
+      <div class="entry">
+        <h3><span class="date">04/08/08</span>: Cookie Cupcakes</h3>
+        <p>
+          My favorite cartoon character is cookie, and my favorite dessert is cupcakes. So Cookie Cupcakes are best of both the worlds. Did you know: Cookie character once said, "Sometimes me think what is love, and then me think love is what last chocolate chip cookie for." :) I wonder if the same applies for the cupcakes? :) If so, I don’t think I can ever love ANYONE!
+        </p>
+        <img src="C:\Users\l252035\Downloads\spatula.jpg" alt="Cookie Cupcakes" />
+      </div>
+    </div>
+  </div>
+</body>
+</html>
